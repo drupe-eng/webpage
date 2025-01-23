@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Khaukha Russel Peter - Theatre Nurse</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      color: #f5f5f5;
+      background: linear-gradient(to bottom right, #2e3a59, #4b5d77, #6c8db5);
+      margin: 0;
+      padding: 0;
+    }
+    footer p {
+      color: #ffab40;
+    }
+    .portfolio-section {
+      background: #ffffff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+  <!-- Navigation Bar -->
+  <header class="bg-gray-900 text-white py-4 sticky top-0 z-50">
+    <nav class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Khaukha Russel Peter</h1>
+      <ul class="flex space-x-6">
+        <li><a href="#about" class="hover:underline">About</a></li>
+        <li><a href="#portfolio" class="hover:underline">Portfolio</a></li>
+        <li><a href="#contact" class="hover:underline">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- About Me Section -->
+  <section id="about" class="bg-gray-800 text-white py-20 text-center">
+    <div class="container mx-auto">
+      <h2 class="text-4xl font-bold mb-4">About Me</h2>
+      <p class="text-lg">Hello! I'm Khaukha Russel Peter, a dedicated theatre nurse with extensive experience in surgical environments. I am committed to providing high-quality patient care and supporting medical teams in the operating room.</p>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="py-20">
+    <div class="container mx-auto portfolio-section">
+      <h2 class="text-3xl font-bold text-center mb-8">Portfolio</h2>
+      <h3 class="text-xl font-semibold mb-2">Experience in Surgeries</h3>
+      <p>Throughout my career, I have participated in a variety of surgical procedures, gaining expertise in:</p>
+      <ul class="list-disc list-inside">
+        <li>Orthopedic surgeries</li>
+        <li>Cardiothoracic procedures</li>
+        <li>Emergency surgeries</li>
+      </ul>
+      <p class="mt-4">As a theatre nurse, I provide comprehensive care to patients during the perioperative period, ensuring their safety and comfort. My key responsibilities include:</p>
+      <ul class="list-disc list-inside mt-4">
+        <li><strong>Preoperative Care:</strong> Preparing patients physically and emotionally for surgery, assessing medical history, and ensuring surgical site preparation.</li>
+        <li><strong>Intraoperative Support:</strong>
+          <ul class="list-disc list-inside pl-8">
+            <li><strong>Scrub Nurse Duties:</strong> Maintaining sterility, passing instruments, and monitoring surgical materials.</li>
+            <li><strong>Circulating Nurse Duties:</strong> Managing the operating room, documenting procedures, and assisting the surgical team.</li>
+          </ul>
+        </li>
+        <li><strong>Postoperative Care:</strong> Monitoring patients in recovery, identifying complications, and educating them on wound care and follow-ups.</li>
+        <li><strong>General Duties:</strong> Maintaining aseptic techniques, responding to emergencies, collaborating with the surgical team, and staying updated on surgical advancements.</li>
+      </ul>
+
+      <h3 class="text-xl font-semibold mt-8 mb-2">Experience as a Dental Assistant</h3>
+      <p>In addition to my role as a theatre nurse, I gained valuable experience in:</p>
+      <ul class="list-disc list-inside">
+        <li>Assisting with dental procedures and patient care.</li>
+        <li>Managing dental equipment and maintaining a sterile environment.</li>
+        <li>Providing patient education on dental hygiene and care.</li>
+      </ul>
+
+      <h3 class="text-xl font-semibold mt-8 mb-2">Outreach Programs</h3>
+      <p>I have been actively involved in several outreach programs aimed at improving healthcare access and education:</p>
+      <ul class="list-disc list-inside">
+        <li>Participated in mobile health clinics providing essential services to underserved communities.</li>
+        <li>Assisted in health awareness campaigns and educational workshops on hygiene and preventive care.</li>
+      </ul>
+
+      <h3 class="text-xl font-semibold mt-8 mb-2">Organizing Outreach Events</h3>
+      <p>One of my notable contributions was organizing an outreach event for the Maranatha Trust. This initiative included:</p>
+      <ul class="list-disc list-inside">
+        <li>Coordinating with healthcare professionals and volunteers.</li>
+        <li>Planning and executing health screenings and consultations.</li>
+        <li>Managing logistics and ensuring the smooth operation of the event.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="bg-gray-800 text-white py-20">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-8">Contact Information</h2>
+      <p>If you'd like to get in touch, please reach out through the following channels:</p>
+      <p>Email: <a href="mailto:russelnyarango22@gmail.com" class="text-blue-500 hover:underline">russelnyarango22@gmail.com</a></p>
+      <p>Phone: <a href="tel:+254794750048" class="text-blue-500 hover:underline">+254 794 750 048</a></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-6">
+    <div class="container mx-auto text-center">
+      <p>© 2024 Khaukha Russel Peter. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
